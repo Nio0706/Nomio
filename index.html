@@ -19,7 +19,7 @@
         }
 ​
         #div2 {
-           
+            border: 1px solid red;
             /*display: inline;
             height: 100px;
             width: 100px;
@@ -36,27 +36,49 @@
         } */
         @media (min-width:600px){
             #div1{
+                
                 color :yellow;
                 margin-left: 40px;
                 margin-right: 40px;
             }
             #div2{
-                border: 1px solid pink;
+                border: 1px solid  blue;
                 margin-left: 40px;
                 margin-right: 40px;
                 
             }
         }
-        @media (min-width:800px){
+        @media (max-width:800px){
             #div1{
+            
             background-color: blue;
-            display  : inline;
+            display  : block;
 
             
             }
             #div2{
-                border: 1px solid pink;
-                display: inline;
+               
+                border: 1px solid blue;
+                
+                
+             }
+             @media (max-width:900px){
+            #div1{
+            
+            background-color: blue;
+            display  : none;
+
+            
+            }
+            #div2{
+               
+                border: 1px solid blue;
+                display : none;
+
+            }
+                
+                
+                
                 
 ​
         
